@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+
+  --color-White: #ffffff;
+  --color-Black: #000000;
+  --color-DarkGray: #8c8c8c;
+  --color-VeryDarkGray: #696969;
+
+  /* fonts */
+
+  --font-display: "Alata", sans-serif;
+  --font-body: "Josefin Sans", sans-serif;
+}
