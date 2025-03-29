@@ -9,7 +9,7 @@ function Header() {
     <header
       className={`p-6 ${
         isOpen
-          ? "bg-Black h-dvh"
+          ? "bg-black h-dvh"
           : "bg-[url(/images/mobile/image-hero.jpg)] bg-no-repeat bg-cover bg-center"
       }`}
     >
