@@ -17,17 +17,20 @@ function Header() {
         <div className="w-30">
           <img src="/images/logo.svg" alt="imagen logo" />
         </div>
-        <button onClick={() => setIsOpen(!isOpen)}>
+        <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
             <img src="/images/icon-close.svg" alt="icono menu" />
           ) : (
             <img src="/images/icon-hamburger.svg" alt="icono menu" />
           )}
         </button>
+        <div className="hidden md:flex ">
+          <Navbar />
+        </div>
       </div>
       <div>
         {isOpen ? (
-          <div className="mt-30 text-3xl">
+          <div className="mt-30 text-3xl md:hidden">
             <Navbar />
           </div>
         ) : (

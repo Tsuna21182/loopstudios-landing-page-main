@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="font-body flex flex-col gap-3">
+    <nav className="font-body flex flex-col md:flex-row gap-3">
       <a href="#" className="text-White font-light">
         About
       </a>
