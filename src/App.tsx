@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import VR from "./Sections/VR";
 import Creations from "./Sections/Creations";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <VR />
       <Creations />
+      <Footer />
     </>
   );
 }

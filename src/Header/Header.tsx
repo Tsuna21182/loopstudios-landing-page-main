@@ -37,8 +37,7 @@ function Header() {
           ""
         )}
       </div>
-
-      <Hero />
+      {isOpen ? "" : <Hero />}
     </header>
   );
 }
